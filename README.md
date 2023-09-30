@@ -1,7 +1,8 @@
 # leetcode
 力扣刷题总结
 
-## 2136. 全部开花的最早一天
+## [2136. 全部开花的最早一天](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/)
+
 iota函数，给数组赋值
 ```C++
 vector<int>id(n);
