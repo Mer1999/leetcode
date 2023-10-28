@@ -28,3 +28,12 @@ iota(id.begin(), id.end(), 0); // iota数组赋初值，从0到n-1
 **容斥原理：**
 
 三个的情况：|A∪B∪C|=|A|+|B|+|C|-|A∩B|-|A∩C|-|B∩C|+|A∩B∩C|
+
+## [2558. 从数量最多的堆取走礼物](https://leetcode.cn/problems/take-gifts-from-the-richest-pile/)
+
+STL最大堆的用法：
+
+赋初值：```priority_queue<T>q(gifts.begin(), gifts.end());``` gifts是个vector<int>
+
+类似于栈和队列,
+```q.pop() q.top() q.push()```顾名思义，并且```top()```依旧是只返回值不出队
